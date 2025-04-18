@@ -20,6 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="adapterPattern\AdapterOperator.cpp" />
+    <ClCompile Include="bridgePattern\BridgeOperator.cpp" />
+    <ClCompile Include="bridgePattern\messageSender\EmailSender.cpp" />
+    <ClCompile Include="bridgePattern\messageSender\SMSSender.cpp" />
+    <ClCompile Include="bridgePattern\message\EncryptedMessage.cpp" />
+    <ClCompile Include="bridgePattern\message\TextMessage.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -28,6 +33,13 @@
     <ClInclude Include="adapterPattern\interface\HdmiAdapter.h" />
     <ClInclude Include="adapterPattern\interface\UsbAdapter.h" />
     <ClInclude Include="adapterPattern\interface\VgaAdapter.h" />
+    <ClInclude Include="bridgePattern\BridgeOperator.h" />
+    <ClInclude Include="bridgePattern\messageSender\EmailSender.h" />
+    <ClInclude Include="bridgePattern\messageSender\MessageSender.h" />
+    <ClInclude Include="bridgePattern\messageSender\SMSSender.h" />
+    <ClInclude Include="bridgePattern\message\EncryptedMessage.h" />
+    <ClInclude Include="bridgePattern\message\Message.h" />
+    <ClInclude Include="bridgePattern\message\TextMessage.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

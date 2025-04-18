@@ -21,6 +21,21 @@
     <ClCompile Include="adapterPattern\AdapterOperator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="bridgePattern\message\EncryptedMessage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bridgePattern\message\TextMessage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bridgePattern\messageSender\EmailSender.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bridgePattern\messageSender\SMSSender.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bridgePattern\BridgeOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -36,6 +51,27 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="adapterPattern\AdapterOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bridgePattern\message\EncryptedMessage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bridgePattern\message\Message.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bridgePattern\message\TextMessage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bridgePattern\messageSender\EmailSender.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bridgePattern\messageSender\MessageSender.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bridgePattern\messageSender\SMSSender.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bridgePattern\BridgeOperator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
