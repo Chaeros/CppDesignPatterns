@@ -1,21 +1,19 @@
 #pragma once
-#inclue <cstring>
+#include <string>
 
 class Theme {
 private:
-	static Theme instance;
 	std::string themeColor;
 	Theme():themeColor("light"){}
+	Theme(const Theme&) = delete;
+	Theme& operator=(const Theme&) = delete;
 
 public:
-	static Theme getInstance() {
-		if (instance == null) {
-			instance = new Theme();
-		}
+	static Theme& getInstance() {
+		static Theme instance;
 		return instance;
 	}
 
 	std::string getThemeColor();
-
 	void setThemeColor(std::string themeColor);
 };

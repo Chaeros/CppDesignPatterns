@@ -6,5 +6,5 @@ std::string Theme::getThemeColor() {
 }
 
 void Theme::setThemeColor(std::string themeColor) {
-	this.themeColor = themeColor;
+	Theme::themeColor = themeColor;
 }

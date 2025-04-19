@@ -7,6 +7,6 @@ private:
 	std::string text;
 
 public:
-	Label(std::string text) text(text) {}
+	Label(std::string text) : text(text) {}
 	void display() override;
 };

@@ -26,6 +26,10 @@
     <ClCompile Include="bridgePattern\message\EncryptedMessage.cpp" />
     <ClCompile Include="bridgePattern\message\TextMessage.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="singletonPattern\component\Button.cpp" />
+    <ClCompile Include="singletonPattern\component\Label.cpp" />
+    <ClCompile Include="singletonPattern\SingletonOperator.cpp" />
+    <ClCompile Include="singletonPattern\theme\Theme.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\AdapterOperator.h" />
@@ -40,6 +44,11 @@
     <ClInclude Include="bridgePattern\message\EncryptedMessage.h" />
     <ClInclude Include="bridgePattern\message\Message.h" />
     <ClInclude Include="bridgePattern\message\TextMessage.h" />
+    <ClInclude Include="singletonPattern\component\Button.h" />
+    <ClInclude Include="singletonPattern\component\Component.h" />
+    <ClInclude Include="singletonPattern\component\Label.h" />
+    <ClInclude Include="singletonPattern\SingletonOperator.h" />
+    <ClInclude Include="singletonPattern\theme\Theme.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
