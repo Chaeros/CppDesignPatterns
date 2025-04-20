@@ -48,6 +48,27 @@
     <ClCompile Include="singletonPattern\SingletonOperator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="factoryMethodPattern\financialInfo\FinancialInfo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="factoryMethodPattern\payment\BankTransferPayment.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="factoryMethodPattern\payment\CreditCardPayment.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="factoryMethodPattern\payment\PayPalPayment.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="factoryMethodPattern\paymentFactory\BankTransferPaymentFactory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="factoryMethodPattern\paymentFactory\CreditCardPaymentFactory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="factoryMethodPattern\paymentFactory\PayPalPaymentFactory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -99,6 +120,36 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="singletonPattern\SingletonOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\financialInfo\FinancialInfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\payment\BankTransferPayment.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\payment\CreditCardPayment.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\payment\Payment.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\payment\PayPalPayment.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\paymentFactory\BankTransferPaymentFactory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\paymentFactory\CreditCardPaymentFactory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\paymentFactory\PaymentFactory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\paymentFactory\PayPalPaymentFactory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="factoryMethodPattern\FactoryMethodOperator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
