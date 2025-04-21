@@ -34,6 +34,9 @@
     <ClCompile Include="factoryMethodPattern\payment\CreditCardPayment.cpp" />
     <ClCompile Include="factoryMethodPattern\payment\PayPalPayment.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="proxyPattern\image\implement\RealImage.cpp" />
+    <ClCompile Include="proxyPattern\image\proxy\ProxyImage.cpp" />
+    <ClCompile Include="proxyPattern\ProxyOperator.cpp" />
     <ClCompile Include="singletonPattern\component\Button.cpp" />
     <ClCompile Include="singletonPattern\component\Label.cpp" />
     <ClCompile Include="singletonPattern\SingletonOperator.cpp" />
@@ -62,6 +65,13 @@
     <ClInclude Include="factoryMethodPattern\payment\CreditCardPayment.h" />
     <ClInclude Include="factoryMethodPattern\payment\Payment.h" />
     <ClInclude Include="factoryMethodPattern\payment\PayPalPayment.h" />
+    <ClInclude Include="proxyPattern\image\implement\RealImage.h" />
+    <ClInclude Include="proxyPattern\image\proxy\ProxyImage.h" />
+    <ClInclude Include="proxyPattern\image\subject\Image.h" />
+    <ClInclude Include="proxyPattern\implement\RealImage.h" />
+    <ClInclude Include="proxyPattern\ProxyOperator.h" />
+    <ClInclude Include="proxyPattern\proxy\ProxyImage.h" />
+    <ClInclude Include="proxyPattern\subject\Image.h" />
     <ClInclude Include="singletonPattern\component\Button.h" />
     <ClInclude Include="singletonPattern\component\Component.h" />
     <ClInclude Include="singletonPattern\component\Label.h" />

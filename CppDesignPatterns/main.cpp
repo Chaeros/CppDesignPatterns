@@ -2,6 +2,7 @@
 #include "bridgePattern/BridgeOperator.h"
 #include "singletonPattern/SingletonOperator.h"
 #include "factoryMethodPattern/FactoryMethodOperator.h"
+#include "proxyPattern/ProxyOperator.h"
 #include <iostream>
 
 int main() {
@@ -19,6 +20,10 @@ int main() {
 
 	std::cout << "[Factory Method Pattern]" << std::endl;
 	factoryMethodPatternRun();
+	std::cout << std::endl;
+
+	std::cout << "[Prpxy Pattern Example 1]" << std::endl;
+	proxyPatternRun();
 	std::cout << std::endl;
 
 	return 0;

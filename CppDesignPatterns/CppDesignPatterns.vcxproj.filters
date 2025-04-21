@@ -69,6 +69,18 @@
     <ClCompile Include="factoryMethodPattern\paymentFactory\PayPalPaymentFactory.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="factoryMethodPattern\FactoryMethodOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyPattern\ProxyOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyPattern\image\implement\RealImage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyPattern\image\proxy\ProxyImage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -150,6 +162,27 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="factoryMethodPattern\FactoryMethodOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\implement\RealImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\proxy\ProxyImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\subject\Image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\ProxyOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\image\implement\RealImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\image\proxy\ProxyImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\image\subject\Image.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
