@@ -81,6 +81,12 @@
     <ClCompile Include="proxyPattern\image\proxy\ProxyImage.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="proxyPattern\bankAccount\implement\RealBankAccount.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyPattern\bankAccount\proxy\ProxyBankAccount.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -183,6 +189,15 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="proxyPattern\image\subject\Image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\bankAccount\implement\RealBankAccount.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\bankAccount\proxy\ProxyBankAccount.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyPattern\bankAccount\subject\BankAccount.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

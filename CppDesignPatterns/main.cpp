@@ -26,5 +26,9 @@ int main() {
 	proxyPatternRun();
 	std::cout << std::endl;
 
+	std::cout << "[Prpxy Pattern Example 2]" << std::endl;
+	proxyPatternRun2();
+	std::cout << std::endl;
+
 	return 0;
 }

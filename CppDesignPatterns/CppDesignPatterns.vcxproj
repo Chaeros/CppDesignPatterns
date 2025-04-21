@@ -34,6 +34,8 @@
     <ClCompile Include="factoryMethodPattern\payment\CreditCardPayment.cpp" />
     <ClCompile Include="factoryMethodPattern\payment\PayPalPayment.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="proxyPattern\bankAccount\implement\RealBankAccount.cpp" />
+    <ClCompile Include="proxyPattern\bankAccount\proxy\ProxyBankAccount.cpp" />
     <ClCompile Include="proxyPattern\image\implement\RealImage.cpp" />
     <ClCompile Include="proxyPattern\image\proxy\ProxyImage.cpp" />
     <ClCompile Include="proxyPattern\ProxyOperator.cpp" />
@@ -65,6 +67,9 @@
     <ClInclude Include="factoryMethodPattern\payment\CreditCardPayment.h" />
     <ClInclude Include="factoryMethodPattern\payment\Payment.h" />
     <ClInclude Include="factoryMethodPattern\payment\PayPalPayment.h" />
+    <ClInclude Include="proxyPattern\bankAccount\implement\RealBankAccount.h" />
+    <ClInclude Include="proxyPattern\bankAccount\proxy\ProxyBankAccount.h" />
+    <ClInclude Include="proxyPattern\bankAccount\subject\BankAccount.h" />
     <ClInclude Include="proxyPattern\image\implement\RealImage.h" />
     <ClInclude Include="proxyPattern\image\proxy\ProxyImage.h" />
     <ClInclude Include="proxyPattern\image\subject\Image.h" />
