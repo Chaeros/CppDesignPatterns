@@ -3,6 +3,7 @@
 #include "singletonPattern/SingletonOperator.h"
 #include "factoryMethodPattern/FactoryMethodOperator.h"
 #include "proxyPattern/ProxyOperator.h"
+#include "observerPattern/ObserverOperator.h"
 #include <iostream>
 
 int main() {
@@ -28,6 +29,10 @@ int main() {
 
 	std::cout << "[Prpxy Pattern Example 2]" << std::endl;
 	proxyPatternRun2();
+	std::cout << std::endl;
+
+	std::cout << "[Observer Pattern]" << std::endl;
+	observerPatternRun();
 	std::cout << std::endl;
 
 	return 0;

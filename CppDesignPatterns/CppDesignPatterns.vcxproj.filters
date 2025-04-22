@@ -87,6 +87,15 @@
     <ClCompile Include="proxyPattern\bankAccount\proxy\ProxyBankAccount.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="observerPattern\news\observer\NewChannel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="observerPattern\news\subject\NewsAgencty.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="observerPattern\ObserverOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -198,6 +207,21 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="proxyPattern\bankAccount\subject\BankAccount.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="observerPattern\news\observer\NewsChannel.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="observerPattern\news\observer\Observer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="observerPattern\news\subject\NewsAgency.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="observerPattern\news\subject\Subject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="observerPattern\ObserverOperator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

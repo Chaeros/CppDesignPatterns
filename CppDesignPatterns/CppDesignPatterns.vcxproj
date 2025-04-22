@@ -34,6 +34,9 @@
     <ClCompile Include="factoryMethodPattern\payment\CreditCardPayment.cpp" />
     <ClCompile Include="factoryMethodPattern\payment\PayPalPayment.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="observerPattern\news\observer\NewChannel.cpp" />
+    <ClCompile Include="observerPattern\news\subject\NewsAgencty.cpp" />
+    <ClCompile Include="observerPattern\ObserverOperator.cpp" />
     <ClCompile Include="proxyPattern\bankAccount\implement\RealBankAccount.cpp" />
     <ClCompile Include="proxyPattern\bankAccount\proxy\ProxyBankAccount.cpp" />
     <ClCompile Include="proxyPattern\image\implement\RealImage.cpp" />
@@ -67,6 +70,11 @@
     <ClInclude Include="factoryMethodPattern\payment\CreditCardPayment.h" />
     <ClInclude Include="factoryMethodPattern\payment\Payment.h" />
     <ClInclude Include="factoryMethodPattern\payment\PayPalPayment.h" />
+    <ClInclude Include="observerPattern\news\observer\NewsChannel.h" />
+    <ClInclude Include="observerPattern\news\observer\Observer.h" />
+    <ClInclude Include="observerPattern\news\subject\NewsAgency.h" />
+    <ClInclude Include="observerPattern\news\subject\Subject.h" />
+    <ClInclude Include="observerPattern\ObserverOperator.h" />
     <ClInclude Include="proxyPattern\bankAccount\implement\RealBankAccount.h" />
     <ClInclude Include="proxyPattern\bankAccount\proxy\ProxyBankAccount.h" />
     <ClInclude Include="proxyPattern\bankAccount\subject\BankAccount.h" />
