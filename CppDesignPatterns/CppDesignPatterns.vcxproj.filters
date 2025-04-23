@@ -96,6 +96,15 @@
     <ClCompile Include="observerPattern\ObserverOperator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="flyweightPattern\font\factory\FontFactory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="flyweightPattern\font\implement\ConcreteFont.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="flyweightPattern\FlyweightOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -222,6 +231,18 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="observerPattern\ObserverOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="flyweightPattern\font\factory\FontFactory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="flyweightPattern\font\implement\ConcreteFont.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="flyweightPattern\font\interface\Font.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="flyweightPattern\flyweightOperator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

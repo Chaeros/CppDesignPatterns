@@ -4,6 +4,7 @@
 #include "factoryMethodPattern/FactoryMethodOperator.h"
 #include "proxyPattern/ProxyOperator.h"
 #include "observerPattern/ObserverOperator.h"
+#include "flyweightPattern/FlyweightOperator.h"
 #include <iostream>
 
 int main() {
@@ -33,6 +34,10 @@ int main() {
 
 	std::cout << "[Observer Pattern]" << std::endl;
 	observerPatternRun();
+	std::cout << std::endl;
+
+	std::cout << "[Flyweight Pattern]" << std::endl;
+	flyweightPatternRun();
 	std::cout << std::endl;
 
 	return 0;

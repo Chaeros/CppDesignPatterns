@@ -33,6 +33,9 @@
     <ClCompile Include="factoryMethodPattern\payment\BankTransferPayment.cpp" />
     <ClCompile Include="factoryMethodPattern\payment\CreditCardPayment.cpp" />
     <ClCompile Include="factoryMethodPattern\payment\PayPalPayment.cpp" />
+    <ClCompile Include="flyweightPattern\FlyweightOperator.cpp" />
+    <ClCompile Include="flyweightPattern\font\factory\FontFactory.cpp" />
+    <ClCompile Include="flyweightPattern\font\implement\ConcreteFont.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="observerPattern\news\observer\NewChannel.cpp" />
     <ClCompile Include="observerPattern\news\subject\NewsAgencty.cpp" />
@@ -70,6 +73,10 @@
     <ClInclude Include="factoryMethodPattern\payment\CreditCardPayment.h" />
     <ClInclude Include="factoryMethodPattern\payment\Payment.h" />
     <ClInclude Include="factoryMethodPattern\payment\PayPalPayment.h" />
+    <ClInclude Include="flyweightPattern\flyweightOperator.h" />
+    <ClInclude Include="flyweightPattern\font\factory\FontFactory.h" />
+    <ClInclude Include="flyweightPattern\font\implement\ConcreteFont.h" />
+    <ClInclude Include="flyweightPattern\font\interface\Font.h" />
     <ClInclude Include="observerPattern\news\observer\NewsChannel.h" />
     <ClInclude Include="observerPattern\news\observer\Observer.h" />
     <ClInclude Include="observerPattern\news\subject\NewsAgency.h" />
