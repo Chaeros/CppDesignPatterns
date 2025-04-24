@@ -105,6 +105,36 @@
     <ClCompile Include="flyweightPattern\FlyweightOperator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\database\databaseClient\DatabaseClient.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\database\mysql\command\MySQLCommand.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\database\mysql\connection\MySQLConnection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\database\mysql\factory\MySQLFactory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\database\mysql\resultSet\MySQLResultSet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\database\postgresql\command\PostgreSQLCommand.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\database\postgresql\connection\PostgreSQLConnection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\database\postgresql\factory\PostgreSQLFactory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\database\postgresql\resultSet\PostgreSQLResultSet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractFactoryPattern\AbstractFactoryOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -243,6 +273,48 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="flyweightPattern\flyweightOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\databaseClient\DatabaseClient.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\interface\Command.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\interface\Connection.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\interface\DatabaseFactory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\interface\ResultSet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\mysql\command\MySQLCommand.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\mysql\connection\MySQLConnection.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\mysql\factory\MySQLFactory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\mysql\resultSet\MySQLResultSet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\postgresql\command\PostgreSQLCommand.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\postgresql\connection\PostgreSQLConnection.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\postgresql\factory\PostgreSQLFactory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\database\postgresql\resultSet\PostgreSQLResultSet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractFactoryPattern\AbstractFactoryOperator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
