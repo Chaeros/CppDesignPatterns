@@ -47,6 +47,10 @@
     <ClCompile Include="flyweightPattern\font\factory\FontFactory.cpp" />
     <ClCompile Include="flyweightPattern\font\implement\ConcreteFont.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mediatorPattern\airportMediator\AirportControlTower.cpp" />
+    <ClCompile Include="mediatorPattern\flight\Flight.cpp" />
+    <ClCompile Include="mediatorPattern\MediatorOperator.cpp" />
+    <ClCompile Include="mediatorPattern\runway\Runway.cpp" />
     <ClCompile Include="observerPattern\news\observer\NewChannel.cpp" />
     <ClCompile Include="observerPattern\news\subject\NewsAgencty.cpp" />
     <ClCompile Include="observerPattern\ObserverOperator.cpp" />
@@ -101,6 +105,11 @@
     <ClInclude Include="flyweightPattern\font\factory\FontFactory.h" />
     <ClInclude Include="flyweightPattern\font\implement\ConcreteFont.h" />
     <ClInclude Include="flyweightPattern\font\interface\Font.h" />
+    <ClInclude Include="mediatorPattern\airportMediator\AirportControlTower.h" />
+    <ClInclude Include="mediatorPattern\airportMediator\AirportMediator.h" />
+    <ClInclude Include="mediatorPattern\flight\Flight.h" />
+    <ClInclude Include="mediatorPattern\MediatorOperator.h" />
+    <ClInclude Include="mediatorPattern\runway\Runway.h" />
     <ClInclude Include="observerPattern\news\observer\NewsChannel.h" />
     <ClInclude Include="observerPattern\news\observer\Observer.h" />
     <ClInclude Include="observerPattern\news\subject\NewsAgency.h" />

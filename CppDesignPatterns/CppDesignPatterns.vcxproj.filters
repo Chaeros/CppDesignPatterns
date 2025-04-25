@@ -135,6 +135,18 @@
     <ClCompile Include="abstractFactoryPattern\AbstractFactoryOperator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="mediatorPattern\airportMediator\AirportControlTower.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mediatorPattern\flight\Flight.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mediatorPattern\runway\Runway.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mediatorPattern\MediatorOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -315,6 +327,21 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="abstractFactoryPattern\AbstractFactoryOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mediatorPattern\airportMediator\AirportControlTower.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mediatorPattern\airportMediator\AirportMediator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mediatorPattern\flight\Flight.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mediatorPattern\runway\Runway.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mediatorPattern\MediatorOperator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

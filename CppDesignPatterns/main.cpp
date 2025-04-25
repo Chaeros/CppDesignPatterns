@@ -6,6 +6,7 @@
 #include "observerPattern/ObserverOperator.h"
 #include "flyweightPattern/FlyweightOperator.h"
 #include "abstractFactoryPattern/AbstractFactoryOperator.h"
+#include "mediatorPattern/MediatorOperator.h"
 #include <iostream>
 
 int main() {
@@ -43,6 +44,10 @@ int main() {
 
 	std::cout << "[Abstract Factory Pattern]" << std::endl;
 	abstractFactoryPatternRun();
+	std::cout << std::endl;
+
+	std::cout << "[Mediator Pattern]" << std::endl;
+	mediatorPatternRun();
 	std::cout << std::endl;
 
 	return 0;
