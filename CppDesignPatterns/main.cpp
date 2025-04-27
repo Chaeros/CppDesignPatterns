@@ -1,3 +1,4 @@
+#include <iostream>
 #include "adapterPattern/AdapterOperator.h"
 #include "bridgePattern/BridgeOperator.h"
 #include "singletonPattern/SingletonOperator.h"
@@ -7,7 +8,7 @@
 #include "flyweightPattern/FlyweightOperator.h"
 #include "abstractFactoryPattern/AbstractFactoryOperator.h"
 #include "mediatorPattern/MediatorOperator.h"
-#include <iostream>
+#include "builderPattern/BuilderOperator.h"
 
 int main() {
 	std::cout << "[Adapter Pattern]" << std::endl;
@@ -48,6 +49,10 @@ int main() {
 
 	std::cout << "[Mediator Pattern]" << std::endl;
 	mediatorPatternRun();
+	std::cout << std::endl;
+
+	std::cout << "[Builder Pattern]" << std::endl;
+	builderPatternRun();
 	std::cout << std::endl;
 
 	return 0;
