@@ -37,6 +37,12 @@
     <ClCompile Include="bridgePattern\message\TextMessage.cpp" />
     <ClCompile Include="builderPattern\BuilderOperator.cpp" />
     <ClCompile Include="builderPattern\httpRequest\HttpRequest.cpp" />
+    <ClCompile Include="decoratorPattern\DecoratorOperator.cpp" />
+    <ClCompile Include="decoratorPattern\text\decorator\BoldDecorator.cpp" />
+    <ClCompile Include="decoratorPattern\text\decorator\ItalicDecorator.cpp" />
+    <ClCompile Include="decoratorPattern\text\decorator\TextDecorator.cpp" />
+    <ClCompile Include="decoratorPattern\text\decorator\UnderlineDecorator.cpp" />
+    <ClCompile Include="decoratorPattern\text\domain\PlainText.cpp" />
     <ClCompile Include="factoryMethodPattern\FactoryMethodOperator.cpp" />
     <ClCompile Include="factoryMethodPattern\financialInfo\FinancialInfo.cpp" />
     <ClCompile Include="factoryMethodPattern\paymentFactory\BankTransferPaymentFactory.cpp" />
@@ -95,6 +101,13 @@
     <ClInclude Include="bridgePattern\message\TextMessage.h" />
     <ClInclude Include="builderPattern\BuilderOperator.h" />
     <ClInclude Include="builderPattern\httpRequest\HttpRequest.h" />
+    <ClInclude Include="decoratorPattern\DecoratorOperator.h" />
+    <ClInclude Include="decoratorPattern\text\decorator\BoldDecorator.h" />
+    <ClInclude Include="decoratorPattern\text\decorator\ItalicDecorator.h" />
+    <ClInclude Include="decoratorPattern\text\decorator\TextDecorator.h" />
+    <ClInclude Include="decoratorPattern\text\decorator\UnderlineDecorator.h" />
+    <ClInclude Include="decoratorPattern\text\domain\PlainText.h" />
+    <ClInclude Include="decoratorPattern\text\domain\Text.h" />
     <ClInclude Include="factoryMethodPattern\FactoryMethodOperator.h" />
     <ClInclude Include="factoryMethodPattern\financialInfo\FinancialInfo.h" />
     <ClInclude Include="factoryMethodPattern\paymentFactory\BankTransferPaymentFactory.h" />

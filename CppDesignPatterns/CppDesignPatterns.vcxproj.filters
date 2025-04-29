@@ -147,6 +147,30 @@
     <ClCompile Include="mediatorPattern\MediatorOperator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="builderPattern\BuilderOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="builderPattern\httpRequest\HttpRequest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="decoratorPattern\text\domain\PlainText.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="decoratorPattern\text\decorator\TextDecorator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="decoratorPattern\text\decorator\BoldDecorator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="decoratorPattern\text\decorator\ItalicDecorator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="decoratorPattern\text\decorator\UnderlineDecorator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="decoratorPattern\DecoratorOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -342,6 +366,33 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="mediatorPattern\MediatorOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="builderPattern\BuilderOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="builderPattern\httpRequest\HttpRequest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="decoratorPattern\text\domain\Text.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="decoratorPattern\text\domain\PlainText.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="decoratorPattern\text\decorator\TextDecorator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="decoratorPattern\text\decorator\BoldDecorator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="decoratorPattern\text\decorator\ItalicDecorator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="decoratorPattern\text\decorator\UnderlineDecorator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="decoratorPattern\DecoratorOperator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
