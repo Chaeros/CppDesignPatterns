@@ -9,6 +9,7 @@
 #include "abstractFactoryPattern/AbstractFactoryOperator.h"
 #include "mediatorPattern/MediatorOperator.h"
 #include "builderPattern/BuilderOperator.h"
+#include "decoratorPattern/DecoratorOperator.h"
 
 int main() {
 	std::cout << "[Adapter Pattern]" << std::endl;
@@ -53,6 +54,10 @@ int main() {
 
 	std::cout << "[Builder Pattern]" << std::endl;
 	builderPatternRun();
+	std::cout << std::endl;
+
+	std::cout << "[Decorator Pattern]" << std::endl;
+	decoratorPatternRun();
 	std::cout << std::endl;
 
 	return 0;
