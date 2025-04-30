@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -37,6 +37,11 @@
     <ClCompile Include="bridgePattern\message\TextMessage.cpp" />
     <ClCompile Include="builderPattern\BuilderOperator.cpp" />
     <ClCompile Include="builderPattern\httpRequest\HttpRequest.cpp" />
+    <ClCompile Include="commandPattern\CommandOperator.cpp" />
+    <ClCompile Include="commandPattern\command\DeleteTextCommand.cpp" />
+    <ClCompile Include="commandPattern\command\InsertTextCommand.cpp" />
+    <ClCompile Include="commandPattern\editor\TextEditor.cpp" />
+    <ClCompile Include="commandPattern\invoker\TextEditorInvoker.cpp" />
     <ClCompile Include="decoratorPattern\DecoratorOperator.cpp" />
     <ClCompile Include="decoratorPattern\text\decorator\BoldDecorator.cpp" />
     <ClCompile Include="decoratorPattern\text\decorator\ItalicDecorator.cpp" />
@@ -101,6 +106,12 @@
     <ClInclude Include="bridgePattern\message\TextMessage.h" />
     <ClInclude Include="builderPattern\BuilderOperator.h" />
     <ClInclude Include="builderPattern\httpRequest\HttpRequest.h" />
+    <ClInclude Include="commandPattern\CommandOperator.h" />
+    <ClInclude Include="commandPattern\command\Command.h" />
+    <ClInclude Include="commandPattern\command\DeleteTextCommand.h" />
+    <ClInclude Include="commandPattern\command\InsertTextCommand.h" />
+    <ClInclude Include="commandPattern\editor\TextEditor.h" />
+    <ClInclude Include="commandPattern\invoker\TextEditorInvoker.h" />
     <ClInclude Include="decoratorPattern\DecoratorOperator.h" />
     <ClInclude Include="decoratorPattern\text\decorator\BoldDecorator.h" />
     <ClInclude Include="decoratorPattern\text\decorator\ItalicDecorator.h" />

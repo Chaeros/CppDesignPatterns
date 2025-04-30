@@ -10,6 +10,7 @@
 #include "mediatorPattern/MediatorOperator.h"
 #include "builderPattern/BuilderOperator.h"
 #include "decoratorPattern/DecoratorOperator.h"
+#include "commandPattern/CommandOperator.h"
 
 int main() {
 	std::cout << "[Adapter Pattern]" << std::endl;
@@ -58,6 +59,10 @@ int main() {
 
 	std::cout << "[Decorator Pattern]" << std::endl;
 	decoratorPatternRun();
+	std::cout << std::endl;
+
+	std::cout << "[Command Pattern]" << std::endl;
+	commandPatternRun();
 	std::cout << std::endl;
 
 	return 0;
