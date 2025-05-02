@@ -11,6 +11,7 @@
 #include "builderPattern/BuilderOperator.h"
 #include "decoratorPattern/DecoratorOperator.h"
 #include "commandPattern/CommandOperator.h"
+#include "pubSubPattern/PubsubOperator.h"
 
 int main() {
 	std::cout << "[Adapter Pattern]" << std::endl;
@@ -63,6 +64,10 @@ int main() {
 
 	std::cout << "[Command Pattern]" << std::endl;
 	commandPatternRun();
+	std::cout << std::endl;
+
+	std::cout << "[Pub Sub Pattern]" << std::endl;
+	pubSubPatternRun();
 	std::cout << std::endl;
 
 	return 0;

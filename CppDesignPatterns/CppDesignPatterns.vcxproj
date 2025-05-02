@@ -72,6 +72,11 @@
     <ClCompile Include="proxyPattern\image\implement\RealImage.cpp" />
     <ClCompile Include="proxyPattern\image\proxy\ProxyImage.cpp" />
     <ClCompile Include="proxyPattern\ProxyOperator.cpp" />
+    <ClCompile Include="pubSubPattern\broker\EmailDeliveryService.cpp" />
+    <ClCompile Include="pubSubPattern\global\GlobalIO.cpp" />
+    <ClCompile Include="pubSubPattern\publisher\MarketingDepartment.cpp" />
+    <ClCompile Include="pubSubPattern\PubSubOperator.cpp" />
+    <ClCompile Include="pubSubPattern\subscriber\IndividualCustomer.cpp" />
     <ClCompile Include="singletonPattern\component\Button.cpp" />
     <ClCompile Include="singletonPattern\component\Label.cpp" />
     <ClCompile Include="singletonPattern\SingletonOperator.cpp" />
@@ -153,6 +158,12 @@
     <ClInclude Include="proxyPattern\ProxyOperator.h" />
     <ClInclude Include="proxyPattern\proxy\ProxyImage.h" />
     <ClInclude Include="proxyPattern\subject\Image.h" />
+    <ClInclude Include="pubSubPattern\broker\EmailDeliveryService.h" />
+    <ClInclude Include="pubSubPattern\global\GlobalIO.h" />
+    <ClInclude Include="pubSubPattern\publisher\MarketingDepartment.h" />
+    <ClInclude Include="pubSubPattern\PubsubOperator.h" />
+    <ClInclude Include="pubSubPattern\subscriber\Customer.h" />
+    <ClInclude Include="pubSubPattern\subscriber\IndividualCustomer.h" />
     <ClInclude Include="singletonPattern\component\Button.h" />
     <ClInclude Include="singletonPattern\component\Component.h" />
     <ClInclude Include="singletonPattern\component\Label.h" />
