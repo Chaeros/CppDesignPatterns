@@ -186,6 +186,21 @@
     <ClCompile Include="commandPattern\CommandOperator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pubSubPattern\subscriber\IndividualCustomer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pubSubPattern\broker\EmailDeliveryService.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pubSubPattern\publisher\MarketingDepartment.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pubSubPattern\PubSubOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pubSubPattern\global\GlobalIO.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -426,6 +441,24 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="commandPattern\CommandOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pubSubPattern\subscriber\Customer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pubSubPattern\subscriber\IndividualCustomer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pubSubPattern\publisher\MarketingDepartment.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pubSubPattern\broker\EmailDeliveryService.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pubSubPattern\PubsubOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pubSubPattern\global\GlobalIO.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
