@@ -37,6 +37,11 @@
     <ClCompile Include="bridgePattern\message\TextMessage.cpp" />
     <ClCompile Include="builderPattern\BuilderOperator.cpp" />
     <ClCompile Include="builderPattern\httpRequest\HttpRequest.cpp" />
+    <ClCompile Include="chainOfResponsibilityPattern\ChainResponOperator.cpp" />
+    <ClCompile Include="chainOfResponsibilityPattern\logger\domain\ConsoleLogger.cpp" />
+    <ClCompile Include="chainOfResponsibilityPattern\logger\domain\FileLogger.cpp" />
+    <ClCompile Include="chainOfResponsibilityPattern\logger\domain\Logger.cpp" />
+    <ClCompile Include="chainOfResponsibilityPattern\logger\domain\NetworkLogger.cpp" />
     <ClCompile Include="commandPattern\CommandOperator.cpp" />
     <ClCompile Include="commandPattern\command\DeleteTextCommand.cpp" />
     <ClCompile Include="commandPattern\command\InsertTextCommand.cpp" />
@@ -111,6 +116,12 @@
     <ClInclude Include="bridgePattern\message\TextMessage.h" />
     <ClInclude Include="builderPattern\BuilderOperator.h" />
     <ClInclude Include="builderPattern\httpRequest\HttpRequest.h" />
+    <ClInclude Include="chainOfResponsibilityPattern\ChainResponOperator.h" />
+    <ClInclude Include="chainOfResponsibilityPattern\logger\domain\ConsoleLogger.h" />
+    <ClInclude Include="chainOfResponsibilityPattern\logger\domain\FileLogger.h" />
+    <ClInclude Include="chainOfResponsibilityPattern\logger\domain\Logger.h" />
+    <ClInclude Include="chainOfResponsibilityPattern\logger\domain\NetworkLogger.h" />
+    <ClInclude Include="chainOfResponsibilityPattern\logger\enum\LogLevel.h" />
     <ClInclude Include="commandPattern\CommandOperator.h" />
     <ClInclude Include="commandPattern\command\Command.h" />
     <ClInclude Include="commandPattern\command\DeleteTextCommand.h" />

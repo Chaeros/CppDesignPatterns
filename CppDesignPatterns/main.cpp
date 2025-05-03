@@ -12,6 +12,7 @@
 #include "decoratorPattern/DecoratorOperator.h"
 #include "commandPattern/CommandOperator.h"
 #include "pubSubPattern/PubsubOperator.h"
+#include "chainOfResponsibilityPattern/ChainResponOperator.h"
 
 int main() {
 	std::cout << "[Adapter Pattern]" << std::endl;
@@ -68,6 +69,10 @@ int main() {
 
 	std::cout << "[Pub Sub Pattern]" << std::endl;
 	pubSubPatternRun();
+	std::cout << std::endl;
+
+	std::cout << "[Chain Of Responsibility Pattern]" << std::endl;
+	chainOfResponsibilityPatternRun();
 	std::cout << std::endl;
 
 	return 0;
