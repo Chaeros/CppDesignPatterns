@@ -216,6 +216,33 @@
     <ClCompile Include="chainOfResponsibilityPattern\ChainResponOperator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="specificationPattern\product\domain\Product.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specificationPattern\product\specification\CategorySpecification.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specificationPattern\product\specification\PriceSpecification.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specificationPattern\product\specification\InStockSpecification.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specificationPattern\product\specification\AndSpecification.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specificationPattern\product\specification\NotSpecification.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specificationPattern\product\specification\OrSpeicifaction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specificationPattern\product\filter\ProductFilter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specificationPattern\SpecificationOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -492,6 +519,36 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="chainOfResponsibilityPattern\ChainResponOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\product\specification\Specification.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\product\domain\Product.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\product\specification\CategorySpecification.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\product\specification\PriceSpecification.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\product\specification\InStockSpecification.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\product\specification\AndSpecification.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\product\specification\NotSpecification.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\product\specification\OrSpecification.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\product\filter\ProductFilter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="specificationPattern\SpecificationOperator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
