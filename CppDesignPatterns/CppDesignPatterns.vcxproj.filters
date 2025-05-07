@@ -243,6 +243,15 @@
     <ClCompile Include="specificationPattern\SpecificationOperator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="prototypePattern\document\domain\MemoDocument.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="prototypePattern\document\templateManager\DocumentTemplateManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="prototypePattern\PrototypeOperator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adapterPattern\interface\DisplayAdapter.h">
@@ -549,6 +558,21 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="specificationPattern\SpecificationOperator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="prototypePattern\document\prototype\Prototype.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="prototypePattern\document\domain\Document.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="prototypePattern\document\domain\MemoDocument.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="prototypePattern\document\templateManager\DocumentTemplateManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="prototypePattern\PrototypeOperator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

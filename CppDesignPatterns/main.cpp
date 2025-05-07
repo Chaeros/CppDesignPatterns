@@ -14,6 +14,7 @@
 #include "pubSubPattern/PubsubOperator.h"
 #include "chainOfResponsibilityPattern/ChainResponOperator.h"
 #include "specificationPattern/SpecificationOperator.h"
+#include "prototypePattern/PrototypeOperator.h"
 
 int main() {
 	std::cout << "[Adapter Pattern]" << std::endl;
@@ -78,6 +79,10 @@ int main() {
 
 	std::cout << "[Specification Pattern]" << std::endl;
 	specificationPatternRun();
+	std::cout << std::endl;
+
+	std::cout << "[Prototype Pattern]" << std::endl;
+	prototypePatternRun();
 	std::cout << std::endl;
 
 	return 0;

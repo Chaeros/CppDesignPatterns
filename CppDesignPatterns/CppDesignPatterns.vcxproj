@@ -72,6 +72,9 @@
     <ClCompile Include="observerPattern\news\observer\NewChannel.cpp" />
     <ClCompile Include="observerPattern\news\subject\NewsAgencty.cpp" />
     <ClCompile Include="observerPattern\ObserverOperator.cpp" />
+    <ClCompile Include="prototypePattern\document\domain\MemoDocument.cpp" />
+    <ClCompile Include="prototypePattern\document\templateManager\DocumentTemplateManager.cpp" />
+    <ClCompile Include="prototypePattern\PrototypeOperator.cpp" />
     <ClCompile Include="proxyPattern\bankAccount\implement\RealBankAccount.cpp" />
     <ClCompile Include="proxyPattern\bankAccount\proxy\ProxyBankAccount.cpp" />
     <ClCompile Include="proxyPattern\image\implement\RealImage.cpp" />
@@ -168,6 +171,11 @@
     <ClInclude Include="observerPattern\news\subject\NewsAgency.h" />
     <ClInclude Include="observerPattern\news\subject\Subject.h" />
     <ClInclude Include="observerPattern\ObserverOperator.h" />
+    <ClInclude Include="prototypePattern\document\domain\Document.h" />
+    <ClInclude Include="prototypePattern\document\domain\MemoDocument.h" />
+    <ClInclude Include="prototypePattern\document\prototype\Prototype.h" />
+    <ClInclude Include="prototypePattern\document\templateManager\DocumentTemplateManager.h" />
+    <ClInclude Include="prototypePattern\PrototypeOperator.h" />
     <ClInclude Include="proxyPattern\bankAccount\implement\RealBankAccount.h" />
     <ClInclude Include="proxyPattern\bankAccount\proxy\ProxyBankAccount.h" />
     <ClInclude Include="proxyPattern\bankAccount\subject\BankAccount.h" />
